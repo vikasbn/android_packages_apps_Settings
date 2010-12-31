@@ -1221,6 +1221,10 @@
     <string name="system_update_settings_list_item_summary">""</string>
 
     <!-- About phone screen, status item label -->
+    <string name="cpu_info">CPU Info</string>
+    <!-- About phone screen, status item label -->
+    <string name="mem_info">Mem Info (avail/total)</string>
+    <!-- About phone screen, status item label -->
     <string name="firmware_version">Android version</string>
     <!-- About phone screen, status item label-->
     <string name="model_number">Model number</string>
@@ -1828,6 +1832,49 @@ found in the list of installed applications.</string>
     <!-- Text displayed on Refresh Menu option -->
     <string name="permission_settings_refresh">Refresh List</string>
 
+<<<<<<< HEAD
+=======
+    <string name="service_process_name"><xliff:g id="process">%1$s</xliff:g></string>
+    <!-- Descriptive text of a running process: singular process, singular service. -->
+    <string name="running_processes_item_description_s_s"><xliff:g id="numprocess">%1$d</xliff:g>
+        process and <xliff:g id="numservices">%2$d</xliff:g> service</string>
+    <!-- Descriptive text of a running process: singular process, plural service. -->
+    <string name="running_processes_item_description_s_p"><xliff:g id="numprocess">%1$d</xliff:g>
+        process and <xliff:g id="numservices">%2$d</xliff:g> services</string>
+     <!-- Descriptive text of a running process: plural process, singular service. -->
+    <string name="running_processes_item_description_p_s"><xliff:g id="numprocess">%1$d</xliff:g>
+        processes and <xliff:g id="numservices">%2$d</xliff:g> service</string>
+    <!-- Descriptive text of a running process: plural process, plural service. -->
+    <string name="running_processes_item_description_p_p"><xliff:g id="numprocess">%1$d</xliff:g>
+        processes and <xliff:g id="numservices">%2$d</xliff:g> services</string>
+
+    <!-- Details about an application's running services. -->
+    <string name="runningservicedetails_settings_title">Running application</string>
+    <!-- Message displayed when there are no active services in a process. -->
+    <string name="no_services">Not active</string>
+    <!-- Title for list of services. -->
+    <string name="runningservicedetails_services_title">Services</string>
+    <!-- Title for list of services. -->
+    <string name="runningservicedetails_processes_title">Processes</string>
+    <!-- Running service details, stop a service that has started itself. -->
+    <string name="service_stop">Stop</string>
+    <!-- Running service details, manage a service that is running for some other reason. -->
+    <string name="service_manage">Settings</string>
+    <!-- Running service details, default description for services that are started. -->
+    <string name="service_stop_description">This service was started by its
+        application.  Stopping it may cause the application to fail.</string>
+    <!-- Running service details, default description for services that are managed. -->
+    <string name="service_manage_description"><xliff:g id="client_name">%1$s</xliff:g>:
+        currently in use.  Touch Settings to control it.</string>
+    <!-- Description of the main process in the details. -->
+    <string name="main_running_process_description">Main process that is in use.</string>
+    <!-- Message that a process's service is in use. -->
+    <string name="process_service_in_use_description">Service <xliff:g id="comp_name">%1$s</xliff:g>
+        is in use.</string>
+    <!-- Message that a process's provider is in use. -->
+    <string name="process_provider_in_use_description">Provider <xliff:g id="comp_name">%1$s</xliff:g>
+        is in use.</string>
+>>>>>>> 84d8b59... Added cpu info and memory info to About Phone Settings page
     <!-- Language Settings --> <skip />
     <!-- Title of setting on main settings screen.  This item will take the user to the screen to tweak settings realted to locale and text -->
     <string name="language_settings">Language &amp; keyboard</string>
@@ -2019,6 +2066,7 @@ found in the list of installed applications.</string>
     <!-- Used to show an amount of time in the form "s seconds" in BatteryHistory -->
     <string name="battery_history_seconds"><xliff:g id="seconds">%1$d</xliff:g>s</string>
 
+<<<<<<< HEAD
     <!-- Used to head a list of packages that share a given user id BatteryHistory -->
     <string name="battery_history_packages_sharing_this_uid">Packages sharing this UID:</string>
 
@@ -2064,6 +2112,8 @@ found in the list of installed applications.</string>
     <!-- XXX remove? Used for Screen on time message in BatteryHistory -->
     <string name="battery_history_screen_on_plugged">Plugged in:</string>
 
+=======
+>>>>>>> 84d8b59... Added cpu info and memory info to About Phone Settings page
     <!-- XXX remove? Strings used for displaying usage statistics -->
     <string name="usage_stats_label">Usage statistics</string>
 
